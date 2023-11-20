@@ -1,7 +1,7 @@
 /* =================================================================== 
- *  Knox Main Stylesheet
+ *  Stoneood Main Stylesheet
  *  Ver. 1.0.0
- *  03-23-2021
+ *  11-20-2023
  * ------------------------------------------------------------------
  *
  *  TOC:
@@ -1950,7 +1950,7 @@ img,
     opacity: 0;
     visibility: hidden;
     transition-property: opacity, visibility;
-    transition-duration: .9s;
+    transition-duration: .19s;
     transition-delay: .9s;
     transition-timing-function: ease-in-out;
 }

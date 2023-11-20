@@ -159,9 +159,9 @@
 
             slidesPerView: 1,
             effect: 'fade',
-            speed: 2000,
+            speed: 1000,
             autoplay: {
-                delay: 5000,
+                delay: 8000,
             }
 
         });
@@ -171,7 +171,7 @@
 
    /* MailChimp Form
     * ---------------------------------------------------- */ 
-    const ssMailChimpForm = function() {
+   /* const ssMailChimpForm = function() {
 
         const mcForm = document.querySelector('#mc-form');
 
@@ -304,7 +304,7 @@
     };
 
 
-
+*/
    /* Tabs
     * ---------------------------------------------------- */ 
     const sstabs = function(nextTab = false) {

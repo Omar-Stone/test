@@ -3422,8 +3422,8 @@ img.u-pull-left {
 .s-intro__content,
 .s-intro__scroll {
     transition-timing-function : cubic-bezier(0.28, 0.12, 0.22, 1);
-    transition-duration        : 2s;
-    transition-delay           : 0s;
+    transition-duration        : 4s;
+    transition-delay           : 0.5s;
     opacity                    : 0;
 }
 

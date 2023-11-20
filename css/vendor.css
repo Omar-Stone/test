@@ -1,5 +1,5 @@
 /* ===================================================================
- *  Knox Third-party Stylesheets
+ *  Stoneood Third-party Stylesheets
  *  Template Ver. 1.0.0
  *  03-22-2021
  * -------------------------------------------------------------------
@@ -378,7 +378,7 @@ pre[class*="language-"] {
 .swiper-pagination {
     position   : absolute;
     text-align : center;
-    transition : 300ms opacity;
+    transition : 200ms opacity;
     transform  : translate3d(0, 0, 0);
     z-index    : 10;
 }

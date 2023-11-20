@@ -171,7 +171,7 @@
 
    /* MailChimp Form
     * ---------------------------------------------------- */ 
-   /* const ssMailChimpForm = function() {
+    const ssMailChimpForm = function() {
 
         const mcForm = document.querySelector('#mc-form');
 
@@ -304,7 +304,7 @@
     };
 
 
-*/
+
    /* Tabs
     * ---------------------------------------------------- */ 
     const sstabs = function(nextTab = false) {

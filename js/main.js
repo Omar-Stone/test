@@ -159,9 +159,9 @@
 
             slidesPerView: 1,
             effect: 'fade',
-            speed: 1000,
+            speed: 700,
             autoplay: {
-                delay: 8000,
+                delay: 10000,
             }
 
         });

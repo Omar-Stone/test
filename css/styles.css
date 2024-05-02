@@ -265,6 +265,7 @@
     }
 }
 
+
 /* ------------------------------------------------------------------- 
  * ## grid variables
  * ------------------------------------------------------------------- */
@@ -1794,9 +1795,9 @@ img,
 
 #loader>div {
     content       : "";
-    background    : var(--color-loader);
-    width         : 4px;
-    height        : 4px;
+    background    : var(--color-3-darker);
+    width         : 7px;
+    height        : 7px;
     position      : absolute;
     top           : 0;
     left          : 0;
@@ -3819,6 +3820,24 @@ img.u-pull-left {
 
 /* email link
  */
+ .contact-email-top {
+    --text-email-size : 2.3rem;
+    --multiplier      : 1;
+    display           : inline-block;
+    font-family       : var(--font-2);
+    font-weight       : 400;
+    font-size         : calc(var(--text-email-size) * var(--multiplier));
+    line-height       : 1;
+    margin            : var(--vspace-1_75) 0 var(--vspace-0_25);
+    color             : var(--color-2-darker);
+    border-bottom     : 1px solid var(--color-border);
+}
+.contact-email-top:focus,
+.contact-email-top:hover {
+    color         : var(--color-1-dark);
+    border-bottom : 1px solid rgba(0, 0, 0, 0.5);
+}
+
 .contact-email {
     --text-email-size : 6.8rem;
     --multiplier      : 1;

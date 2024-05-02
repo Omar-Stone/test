@@ -112,7 +112,7 @@
  
      /* preloader
       */
-     --color-preloader-bg           : var(--color-gray-10);
+     --color-preloader-bg           : var(--color-gray-11);
      --color-loader                 : white;
      --color-loader-light           : rgba(255, 255, 255, 0.1);
  
@@ -516,6 +516,11 @@ textarea {
     appearance         : none;
 }
 
+/* Header */
+.lead{ 
+    font-size: larger;
+    color: var(--color-gray-4)
+}
 
 /* ===================================================================
  * # GRID v4.0.0
@@ -1206,9 +1211,9 @@ textarea {
 
 #loader>div {
     content       : "";
-    background    : var(--color-loader);
-    width         : 4px;
-    height        : 4px;
+    background    : var(--color-3-darker);
+    width         : 7px;
+    height        : 7px;
     position      : absolute;
     top           : 0;
     left          : 0;
@@ -1653,6 +1658,7 @@ main .entry__title h3 {
     font-size   : var(--text-sm);
     line-height : var(--vspace-0_75);
     margin-top  : 0;
+    font-size: large;
 }
 
 /* responsive:

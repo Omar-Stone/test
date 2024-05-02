@@ -1,0 +1,158 @@
+/* Coastal Calm Theme */
+/* Primary color palette */
+--color-1: hsl(197, 71%, 73%); /* Soft Sky Blue */
+--color-2: hsl(34, 21%, 66%); /* Sandy Beige */
+--color-3: hsl(180, 54%, 43%); /* Ocean Teal */
+
+/* Theme color variations */
+--color-1-lighter: hsl(197, 71%, 83%);
+--color-1-light: hsl(197, 71%, 78%);
+--color-1-dark: hsl(197, 71%, 63%);
+--color-1-darker: hsl(197, 71%, 53%);
+--color-2-lighter: hsl(34, 21%, 76%);
+--color-2-light: hsl(34, 21%, 71%);
+--color-2-dark: hsl(34, 21%, 56%);
+--color-2-darker: hsl(34, 21%, 46%);
+--color-3-lighter: hsl(180, 54%, 53%);
+--color-3-light: hsl(180, 54%, 48%);
+--color-3-dark: hsl(180, 54%, 38%);
+--color-3-darker: hsl(180, 54%, 33%);
+
+/* Feedback colors */
+--color-error: hsl(12, 88%, 59%);
+--color-success: hsl(164, 60%, 48%);
+--color-info: hsl(204, 70%, 53%);
+--color-notice: hsl(52, 100%, 59%);
+
+ /* shades 
+  * generated using 
+  * Tint & Shade Generator 
+  * (https://maketintsandshades.com/)
+  */
+ /* Tints & Shades */
+--color-black                  : #000000; /* Pure Black */
+--color-gray-19                : #cceff1; /* Lightest Soft Sky Blue */
+--color-gray-18                : #b3e4e8; /* Very Light Soft Sky Blue */
+--color-gray-17                : #99d9df; /* Lighter Soft Sky Blue */
+--color-gray-16                : #80ced6; /* Light Soft Sky Blue */
+--color-gray-15                : #66c3cd; /* Soft Sky Blue */
+--color-gray-14                : #4db8c4; /* Dark Soft Sky Blue */
+--color-gray-13                : #33adbb; /* Darker Soft Sky Blue */
+--color-gray-12                : #1aa2b2; /* Darkest Soft Sky Blue */
+--color-gray-11                : #0097a9; /* Navy Blue, related to Soft Sky Blue */
+--color-gray-10                : #d7bfaa; /* Lightest Sandy Beige */
+--color-gray-9                 : #c0a890; /* Very Light Sandy Beige */
+--color-gray-8                 : #a99176; /* Lighter Sandy Beige */
+--color-gray-7                 : #927a5c; /* Light Sandy Beige */
+--color-gray-6                 : #7b6352; /* Sandy Beige */
+--color-gray-5                 : #645c48; /* Dark Sandy Beige */
+--color-gray-4                 : #4d463e; /* Darker Sandy Beige */
+--color-gray-3                 : #362f34; /* Darkest Sandy Beige */
+--color-gray-2                 : #b8e2e1; /* Lightest Ocean Teal */
+--color-gray-1                 : #a1d6d4; /* Very Light Ocean Teal */
+--color-white                  : #ffffff; /* Pure White */
+
+/* Serene Greens */
+
+/* Primary color palette */
+--color-1: hsl(120, 40%, 75%); /* Mint Green */
+--color-2: hsl(120, 25%, 65%); /* Soft Fern */
+--color-3: hsl(82, 29%, 60%); /* Gentle Moss */
+
+/* Theme color variations */
+--color-1-lighter: hsl(120, 40%, 85%);
+--color-1-light: hsl(120, 40%, 80%);
+--color-1-dark: hsl(120, 40%, 65%);
+--color-1-darker: hsl(120, 40%, 55%);
+--color-2-lighter: hsl(120, 25%, 75%);
+--color-2-light: hsl(120, 25%, 70%);
+--color-2-dark: hsl(120, 25%, 55%);
+--color-2-darker: hsl(120, 25%, 45%);
+--color-3-lighter: hsl(82, 29%, 70%);
+--color-3-light: hsl(82, 29%, 65%);
+--color-3-dark: hsl(82, 29%, 50%);
+--color-3-darker: hsl(82, 29%, 40%);
+
+/* Feedback colors */
+--color-error: hsl(348, 100%, 61%);
+--color-success: hsl(141, 71%, 48%);
+--color-info: hsl(207, 90%, 54%);
+--color-notice: hsl(48, 100%, 67%);
+
+/* Tints & Shades for Serene Greens */
+--color-black                  : #000000; /* Pure Black */
+--color-gray-19                : #e2f2e4; /* Lightest Mint Green */
+--color-gray-18                : #c6e5c9; /* Very Light Mint Green */
+--color-gray-17                : #a9d7ae; /* Lighter Mint Green */
+--color-gray-16                : #8dca93; /* Light Mint Green */
+--color-gray-15                : #70bd78; /* Mint Green */
+--color-gray-14                : #54b05d; /* Dark Mint Green */
+--color-gray-13                : #38a342; /* Darker Mint Green */
+--color-gray-12                : #1b9627; /* Darkest Mint Green */
+--color-gray-11                : #d6e8d6; /* Lightest Soft Fern */
+--color-gray-10                : #adcfb0; /* Very Light Soft Fern */
+--color-gray-9                 : #85b78a; /* Lighter Soft Fern */
+--color-gray-8                 : #5c9e64; /* Light Soft Fern */
+--color-gray-7                 : #33863e; /* Soft Fern */
+--color-gray-6                 : #0b6e18; /* Dark Soft Fern */
+--color-gray-5                 : #87b48b; /* Lightest Gentle Moss */
+--color-gray-4                 : #6e9a71; /* Very Light Gentle Moss */
+--color-gray-3                 : #548157; /* Lighter Gentle Moss */
+--color-gray-2                 : #3b683d; /* Light Gentle Moss */
+--color-gray-1                 : #215023; /* Gentle Moss */
+--color-white                  : #ffffff; /* Pure White */
+
+
+
+
+
+
+/*Pastel Sunset Theme */
+
+/* Primary color palette */
+--color-1: hsl(270, 60%, 70%); /* Lavender Purple*/
+--color-2: hsl(350, 60%, 80%); /* Pastel Pink */
+--color-3: hsl(320, 60%, 70%); /* Twilight Magenta*/
+
+/* Theme color variations */
+--color-1-lighter: hsl(270, 60%, 80%);
+--color-1-light: hsl(270, 60%, 75%);
+--color-1-dark: hsl(270, 60%, 60%);
+--color-1-darker: hsl(270, 60%, 50%);
+--color-2-lighter: hsl(350, 60%, 90%);
+--color-2-light: hsl(350, 60%, 85%);
+--color-2-dark: hsl(350, 60%, 70%);
+--color-2-darker: hsl(350, 60%, 60%);
+--color-3-lighter: hsl(320, 60%, 80%);
+--color-3-light: hsl(320, 60%, 75%);
+--color-3-dark: hsl(320, 60%, 60%);
+--color-3-darker: hsl(320, 60%, 50%);
+
+/* Feedback colors */
+--color-error: hsl(5, 90%, 65%);
+--color-success: hsl(120, 70%, 75%);
+--color-info: hsl(190, 90%, 70%);
+--color-notice: hsl(50, 100%, 75%);
+
+/* Tints & Shades for Pastel Sunset */
+--color-black                  : #000000; /* Pure Black */
+--color-gray-19                : #e6dbf4; /* Lightest Lavender Purple */
+--color-gray-18                : #cbb7e9; /* Very Light Lavender Purple */
+--color-gray-17                : #b093dd; /* Lighter Lavender Purple */
+--color-gray-16                : #946fd2; /* Light Lavender Purple */
+--color-gray-15                : #795bc6; /* Lavender Purple */
+--color-gray-14                : #5e47bb; /* Dark Lavender Purple */
+--color-gray-13                : #4333af; /* Darker Lavender Purple */
+--color-gray-12                : #281fa4; /* Darkest Lavender Purple */
+--color-gray-11                : #f5d2e1; /* Lightest Pastel Pink */
+--color-gray-10                : #ebacc3; /* Very Light Pastel Pink */
+--color-gray-9                 : #e186a6; /* Lighter Pastel Pink */
+--color-gray-8                 : #d76188; /* Light Pastel Pink */
+--color-gray-7                 : #cc3c6a; /* Pastel Pink */
+--color-gray-6                 : #c2174c; /* Dark Pastel Pink */
+--color-gray-5                 : #e1b0d4; /* Lightest Twilight Magenta */
+--color-gray-4                 : #d488c0; /* Very Light Twilight Magenta */
+--color-gray-3                 : #c660ac; /* Lighter Twilight Magenta */
+--color-gray-2                 : #b83898; /* Light Twilight Magenta */
+--color-gray-1                 : #ab1094; /* Twilight Magenta */
+--color-white                  : #ffffff; /* Pure White */

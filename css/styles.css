@@ -3244,6 +3244,7 @@ ul.social li a {
     width: 5vw; /* Sets the width relative to the width of the viewport */
     height: 5vw; /* Sets the height relative to the width of the viewport */
     position: relative; /* For positioning the img absolutely inside the anchor */
+    color : var(--color-black);
 }
 
 ul.social li img {

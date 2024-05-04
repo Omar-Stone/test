@@ -3209,13 +3209,13 @@ img.u-pull-left {
     list-style  : none;
     font-family : var(--font-2);
     font-weight : 300;
-    font-size   : var(--text-md);
+    font-size   : var(--text-lg);
     line-height : var(--vspace-1_25);
     margin-left : 0;
 }
 
 .s-intro .social a {
-    color : white;
+    color : var(--color-black);
 }
 
 .s-intro .social li {
@@ -3227,6 +3227,33 @@ img.u-pull-left {
 .s-intro .social li:last-child {
     margin-right : 0;
 }
+ul.social {
+    list-style-type: none; /* Removes bullet points from the list */
+    padding: 0; /* Removes padding */
+    text-align: center; /* Centers the list items */
+    margin: 0 auto; /* Center the list itself if within a container */
+}
+
+ul.social li {
+    display: inline; /* Display list items in a line */
+    margin-right: 10px; /* Space between icons */
+}
+
+ul.social li a {
+    display: inline-block; /* Allows width and height on anchor elements */
+    width: 5vw; /* Sets the width relative to the width of the viewport */
+    height: 5vw; /* Sets the height relative to the width of the viewport */
+    position: relative; /* For positioning the img absolutely inside the anchor */
+}
+
+ul.social li img {
+    width: 100%; /* Makes the image fill the anchor element */
+    height: auto; /* Keeps the image aspect ratio intact */
+    position: absolute; /* Positions image to cover the anchor area */
+    top: 0;
+    left: 0;
+}
+
 
 /* --------------------------------------------------------------------
  * ## intro notify
@@ -3627,6 +3654,7 @@ img.u-pull-left {
         bottom : 6rem;
     }
 }
+
 
 
 /* ===================================================================
@@ -4119,5 +4147,19 @@ img.u-pull-left {
     .contact-number {
         font-size   : var(--text-xs);
         line-height : var(--vspace-0_5);
+    }
+}
+/* responsive contact us*/
+@media (max-width: 768px) {
+    ul.social li a {
+        width: 10vw; /* Increase size for smaller screens */
+        height: 10vw;
+    }
+}
+
+@media (max-width: 480px) {
+    ul.social li a {
+        width: 15vw; /* Further increase size for very small screens */
+        height: 15vw;
     }
 }

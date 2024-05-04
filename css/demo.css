@@ -1612,7 +1612,7 @@ main .entry__thumb a::before {
     height     : 100%;
     transition : all .3s;
 }
-
+/*
 main .entry__thumb a::after {
     content        : "...";
     font-family    : var(--font-1);
@@ -1636,6 +1636,7 @@ main .entry__thumb a::after {
     transform      : scale(0.5);
     transition     : all .3s;
 }
+*/
 
 main .entry__thumb .who_we_are::after {
     content        : "Who We Are";

@@ -3246,6 +3246,8 @@ ul.social li a {
     position: relative; /* For positioning the img absolutely inside the anchor */
     color : var(--color-black);
     font-size: smaller;
+    min-width: 48px; /* Ensures that the icons never shrink below a usable size */
+    min-height: 48px;
 }
 
 ul.social li img {
@@ -4161,7 +4163,11 @@ ul.social li img {
 
 @media (max-width: 480px) {
     ul.social li a {
-        width: 15vw; /* Further increase size for very small screens */
+        display: inline-block; /* Ensure it's not set to 'none' */
+        visibility: visible; /* Ensure it's not set to 'hidden' */
+        width: 15vw;
         height: 15vw;
+        min-width: 48px;
+        min-height: 48px;
     }
 }
